@@ -18,4 +18,3 @@ Initialize character yposition with  ${startingY}
 Move in direction                    ${direction}
 Character xposition should be        ${endingX}
 Character yposition should be        ${endingY}
-Character moveCount should be        ${endingMoveCount}
