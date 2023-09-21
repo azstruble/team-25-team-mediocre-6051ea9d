@@ -1,7 +1,7 @@
 *** Settings ***
-Documentation I want to move my character. If they attempt to move past a boundary, the move results in no change in position.
-Test Template Move character
-Library MoveLibrary.py
+Documentation   I want to move my character. If they attempt to move past a boundary, the move results in no change in position.
+Test Template   Move character
+Library         MoveLibrary.py
 
 *** Test Cases ***                  StartingX     StartingY     Direction     EndingX     EndingY
 Move character 1 north              0             0             NORTH         0           1
