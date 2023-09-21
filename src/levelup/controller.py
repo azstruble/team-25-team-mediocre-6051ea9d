@@ -51,6 +51,7 @@ class GameController:
         pass
 
     def set_character_position(self, xycoordinates: tuple) -> None:
+        print("Set character position state for testing")
         # TODO: IMPLEMENT THIS TO SET CHARACTERS CURRENT POSITION -- exists to be testable
         pass
 
