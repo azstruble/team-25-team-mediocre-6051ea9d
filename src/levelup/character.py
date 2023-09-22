@@ -7,8 +7,8 @@ class Character:
     current_position :Position = Position(-100,-100)
     map :Map = Map()
 
-    def __init__(self, character_name):
-        self.name = character_name
+    def __init__(self, character):
+        self.name = character
 
     def move(self, direction :Direction) -> None:
         self.current_position = self.map.calculate_new_position(
