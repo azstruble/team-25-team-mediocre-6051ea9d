@@ -16,8 +16,8 @@ Move character
     Character xposition should be       ${endingX}
     Character yposition should be       ${endingY}
 
-*** Settings ***
-Documentation
-... Example test case using the data-driven (table) syntax.
-... http://arcbotics.com/wp-content/uploads/2015/12/sparki-driver-icon.png
-... 
+#*** Settings ***
+#Documentation
+#... Example test case using the data-driven (table) syntax.
+#... http://arcbotics.com/wp-content/uploads/2015/12/sparki-driver-icon.png
+#... 
