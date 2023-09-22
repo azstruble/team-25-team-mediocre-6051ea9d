@@ -3,7 +3,7 @@ from levelup.direction import Direction
 from levelup.map import Map
 
 class Character:
-    name = "Erin"
+    name = ""
     current_position :Position = Position(-100,-100)
     map :Map = Map()
 
