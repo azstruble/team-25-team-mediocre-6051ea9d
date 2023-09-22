@@ -28,9 +28,11 @@ class GameController:
 
     def start_game(self):
         pass
-
-    def create_character(self, character_name: str) -> None:
-        pass
-
+    
     def move(self, direction: Direction) -> None:
         pass
+    def create_character(self, character_name: str) -> None:
+            if character_name is not None and character_name != "":
+                self.status.character_name = character_name
+            else:
+                self.status.character_name = DEFAULT_CHARACTER_NAME
