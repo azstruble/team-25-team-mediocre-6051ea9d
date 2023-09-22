@@ -12,7 +12,7 @@ Move character 1 west               0             0             WEST          0 
 Move character 2 south              3             8             SOUTH         3           7
 
 *** Keywords ***
-Move character_name
+Move character
     [Arguments]    ${startingX}    ${startingY}    ${direction}    ${endingX}    ${endingY}   
     Initialize character xposition with  ${startingX}
     Initialize character yposition with  ${startingY}
