@@ -2,9 +2,11 @@ import logging
 from dataclasses import dataclass
 from enum import Enum
 
+DEFAULT_CHARACTER_NAME = "Character"
+
 #TODO: ADD THINGS YOU NEED FOR STATUS
 class GameStatus:
-    character_name: str = "Character"
+    character_name: str = DEFAULT_CHARACTER_NAME
     move_count: int = 0
     running: bool = False
 
@@ -28,7 +30,7 @@ class GameController:
 
     def start_game(self):
         pass
-    
+
     def move(self, direction: Direction) -> None:
         pass
     def create_character(self, character_name: str) -> None:
